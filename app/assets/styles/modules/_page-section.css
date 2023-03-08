@@ -1,0 +1,17 @@
+.page-section
+{
+	padding-top: 1.2rem;
+
+	@mixin atMedium
+	{
+		padding-top: 4.5rem;
+	}
+	
+	padding-bottom: 0;
+
+	&--blue
+	{
+		background-color: $mainBlue;
+		color: white;
+	}
+}

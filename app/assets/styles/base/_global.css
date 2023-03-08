@@ -1,0 +1,25 @@
+*
+{
+	box-sizing: border-box;
+}
+
+div
+{
+	overflow: hidden;
+}
+
+body
+{
+	font-family: "Roboto", sans-serif;
+	color: #333;
+}
+
+img
+{
+	width: 100%;
+}
+
+a
+{
+	color: $mainOrange;
+}
