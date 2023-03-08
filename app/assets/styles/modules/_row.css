@@ -1,13 +1,24 @@
 .row
 {
 	/*@mixin clearfix*/
-	/*&--gutters*/
 	/*the above are not needed in this project*/
+
+	&--gutters-large
+	{
+		margin-right: -100px;
+	}
+
+	&--gutters-large > div
+	{
+		margin-right: 100px;
+	}
 
 	&__b-margin-until-medium
 	{
 		margin-bottom: 1rem;
 	}
+
+	picture img {width:100%;}
 
 	@mixin atMedium
 	{
@@ -30,6 +41,13 @@
 		&__medium-4--larger
 		{
 			width: 37%;
+		}
+
+		&__medium-6
+		{
+			float: left;
+			width: calc(50% - 100px);
+			margin-right: 100px;
 		}
 
 		&__medium-8
