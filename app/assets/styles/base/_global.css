@@ -3,11 +3,6 @@
 	box-sizing: border-box;
 }
 
-div
-{
-	overflow: hidden;
-}
-
 body
 {
 	font-family: "Roboto", sans-serif;

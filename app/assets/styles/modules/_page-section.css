@@ -7,11 +7,42 @@
 		padding-top: 4.5rem;
 	}
 	
-	padding-bottom: 0;
+	padding-bottom: 0px;
 
 	&--blue
 	{
 		background-color: $mainBlue;
 		color: white;
+	}
+
+	&--testimonials
+	{
+		background-color: #e0e6ef; 
+
+		@mixin atLarge
+		{
+			background: url("/assets/images/testimonials-bg.jpg") top center no-repeat;
+			background-size: cover;
+		}
+	}
+
+	&--no-b-until-medium
+	{
+		padding-bottom: 0;
+
+		@mixin atMedium
+		{
+			padding-bottom: 4.5rem;
+		}
+	}
+
+	&--no-b-until-large
+	{
+		padding-bottom: 0;
+
+		@mixin atLarge
+		{
+			padding-bottom: 4.5rem;
+		}
 	}
 }
